@@ -6,6 +6,7 @@ LABEL "com.github.actions.color"="yellow"
 
 LABEL "repository"="https://github.com/peterjgrainger/danger-action"
 LABEL "maintainer"="peterjgrainger <peter@grainger.xyz>"
+LABEL "homepage"="https://grainger.xyz"
 
 RUN apk add --no-cache git=2.20.1-r0 \
   && gem install danger:5.16.1
